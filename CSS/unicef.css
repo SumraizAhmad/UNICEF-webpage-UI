@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+/* Header CSS start  */
+.header_box {
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: rgb(51, 67, 78); */
+    background-color: hsl(204deg 100% 50%);
+    /* border-bottom: 0.6rem solid #D98555; */
+}
+
+.header_content {
+    height: 125px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo_box {
+    width: 50%;
+}
+
+.logo>h1 {
+    width: auto;
+    color: white;
+}
+
+.nav_box {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_bar>ul {
+    width: 26rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* margin-top: 2.5rem; */
+}
+
+li {
+    color: white;
+    font-size: 23px;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #D98555;
+}
+
+/* Header CSS end  */
+
+
+/* UNICEF's Work CSS  */
+
+.unicef_section {
+    background-color: #f0f9ff;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.unicef_container {
+    width: 600px;
+    /* background-color: aqua; */
+}
+
+.unicef_container>h1 {
+    /* margin-top: 3rem; */
+    margin-bottom: 3rem;
+}
+
+.unicef_container>p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.unicef_container>a {
+    padding: 0.5rem 2.3rem;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(204deg 100% 50%);
+    border-radius: 5px;
+    /* margin-bottom: 5rem; */
+}
+
+/* UNICEF's Work CSS  */
+
+/* Excepteur Section CSS  */
+.excepteur_section {
+    background-color: #0099ff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.excepteur_box {
+    width: 580px;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.excepteur_box>h1 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.excepteur_box>p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* Excepteur Section CSS  */
+
+/* Full image CSS  */
+.full_image {
+    margin-bottom: 5rem;
+}
+
+.full_image>img {
+    width: 100%;
+}
+
+/* Full image CSS  */
+
+/* earch box section CSS  */
+.search_section {
+    background-color: #0099ff;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1>img {
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.item1>p {
+    color: white;
+}
+
+.item_list>ul>li {
+    list-style: none;
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+.item4 {
+    width: 320px;
+}
+
+.item4>p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.item4>input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #0099ff;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+}
+
+.item4>label {
+    padding: 0.8rem;
+    background-color: white;
+    color: #0099ff;
+    border-radius: 8px;
+}
+
+.item5>p {
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/* earch box section CSS  */
+
+/* footer_link section CSS  */
+.footer_link {
+    width: 100%;
+    height: 370px;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    /* width: 760px; */
+    /* height: 150px; */
+    /* background-color: #D98555; */
+    margin-left: 4rem;
+}
+
+.footer_box {
+    display: flex;
+}
+.footer_image{
+    margin-right: 4rem;
+}
+.footer_image>img{
+    width: 100px;
+    border-radius: 5px;
+}
+.footer_ul {
+    margin-right: 4rem;
+}
+
+.footer_ul>li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.footer_link_a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+/* footer_link section CSS  */
+
+/* footer bottom CSS  */
+
+.section_footor {
+    background-color: #f0f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_bottom {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer_bottom_link>ul {
+    display: flex;
+}
+
+.footer_bottom_li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer_bottom_li>a {
+    text-decoration: none;
+    color: #0099ff;
+    padding: 10px;
+}
+
+.top_link {
+    color: #0099ff;
+    padding: 0.75rem;
+    border: 2px solid #0099ff;
+}
+
+/* footer bottom CSS  */
